@@ -1,0 +1,19 @@
+.title {
+  font-size: 3rem;
+  padding: 50px;
+}
+
+.clips-container {
+  display: inline-grid;
+  width: 25%;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 50px;
+  background: #EDE4E0;
+  box-shadow: 13px 13px 26px #9a9492,
+    -13px -13px 26px #ffffff;
+}
+
+.clips-containerClick {
+  background: #C8DBBE;
+}

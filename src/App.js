@@ -1,5 +1,7 @@
 import React from "react";
 import Audio from "./Audio";
+import "./Assets/Style/Global.css";
+import "./Assets/Style/App.css";
 
 function App() {
   const audioClips = [
@@ -60,14 +62,14 @@ function App() {
   ];
 
   return (
-    <div>
-      <div>
-        <h2>Drum kit</h2>
+    <body className="body">
+      <div className="container text-center">
+        <h2 className="title">Drum Kit</h2>
         {audioClips.map((clip) => (
           <Audio key={clip.id} clip={clip} />
         ))}
       </div>
-    </div>
+    </body>
   )
 }
 
