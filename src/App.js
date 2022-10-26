@@ -68,6 +68,7 @@ function App() {
         {audioClips.map((clip) => (
           <Audio key={clip.id} clip={clip} />
         ))}
+        <h4 className="p50-TB">DrumKit.netlify.net</h4>
       </div>
     </body>
   )
